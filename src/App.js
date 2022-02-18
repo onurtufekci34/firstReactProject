@@ -42,6 +42,8 @@ export default class App extends Component {
     this.setState({ products: tempData });
   };
 
+  // hallo meine liebe
+
   addToCart = (product) => {
     let newCart = this.state.cart;
     var addedItem = newCart.find((c) => c.product.id === product.id);
